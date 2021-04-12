@@ -1,7 +1,4 @@
-puts "Bonjour, c'est quoi ton blase ?"
-print "> "
-def bonjour(nom)
-    puts "Bonjour " + user_name = gets.chomp + ", comment vas-tu ?"
-end
+puts "Bonjour, quel est ton nom ?"
+nom = gets.chomp
 
-bonjour("nom")
+puts "Et bien, " + nom + ". Je suis ravie de faire ta connaissance !"
